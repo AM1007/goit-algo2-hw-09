@@ -21,7 +21,7 @@ using three different local optimization approaches:
 2. Random Local Search
 3. Simulated Annealing
 
-
+![example](./assets/task.png)
 
 
 # Technical Requirements
