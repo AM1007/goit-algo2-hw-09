@@ -10,7 +10,13 @@ This assignment will help you understand the differences between these methods, 
 
 Let's get started! 💪🏼
 
-Task Description
+## Solution
+
+![screenshot](./Screenshot%202025-03-08%20114830.png)
+![screenshot](./sphere_function_3d.png)
+
+## Task Description
+
 Implement a program to minimize the Sphere function:
 
 $f(x) = \sum_{i=1}^n x_i^2$
@@ -21,10 +27,8 @@ using three different local optimization approaches:
 2. Random Local Search
 3. Simulated Annealing
 
-![example](./assets/task.png)
-
-
 # Technical Requirements
+
 The function domain is defined as:
 
 1. The function domain is defined as:
@@ -34,14 +38,15 @@ $x_i \in [-5, 5]$
 for each parameter $x_i$
 
 2. The algorithms must return:
-  - The optimal point (a list of coordinates $x$).
-  - The function value at that point.
+
+- The optimal point (a list of coordinates $x$).
+- The function value at that point.
 
 3. Implement three optimization methods:
 
-  - hill_climbing — Hill Climbing algorithm.
-  - random_local_search — Random Local Search.
-  - simulated_annealing — Simulated Annealing.
+- hill_climbing — Hill Climbing algorithm.
+- random_local_search — Random Local Search.
+- simulated_annealing — Simulated Annealing.
 
 4. Each algorithm must accept a parameter `iterations`, which defines the maximum number of iterations for execution.
 
@@ -103,6 +108,7 @@ if __name__ == "__main__":
 ```
 
 Example of execution
+
 ```python
 Hill Climbing:
 Solution: [0.0005376968388007969, 0.0007843237077809137] Value: 9.042815690435702e-07
